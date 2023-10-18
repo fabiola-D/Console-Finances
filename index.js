@@ -87,10 +87,7 @@ let finances = [
   ['Feb-2017', 671099],
 ];
 
-<<<<<<< HEAD
 
-=======
->>>>>>> d076387b2b3544c7b30a7575a81e00209b4d5da9
 let average;
 let analysis;
 let months  = finances.length;
@@ -140,7 +137,6 @@ average = Math.round((netChallangeSum / finances.length * 100) * 100)
 // 'Avarage Change: ' + average + '\n' +
 // 'Greatest Increase in Profit: ' +  greastest[0] + ': $' + greastest[1] + '\n' +
 // 'Greatest Decrease in Porfit: ' + least[0] + ': $' + least[1] + '\n';
-<<<<<<< HEAD
 // Step 1: Find the total number of elements (length) in the array.
 
 let totalMonths = finances.length;
@@ -150,7 +146,7 @@ let totalMonths = finances.length;
 let netProfits = 0; 
 for (let i = 0; i < finances.length; i++) {
     netProfits += finances[i][1]; }
-let totalChange = 0
+let totalChange = 0;
 let greatestIncreaseDate = finances[0][0]
 let greatestIncreaseAmount = 0;
 let greatestDecreaseDate = finances[0][0]
@@ -183,17 +179,3 @@ console.log(`Total: $${netProfits};`)
 console.log(`Average Change: ${averageChange.toFixed(2)};`)
 console.log(`Greatest increase in profits in ${greatestIncreaseDate}: was ($${greatestIncreaseAmount});`);
 console.log(`Greatest decrease in profits in ${greatestDecreaseDate}: was ($${greatestDecreaseAmount});`);
-=======
-
-// String literal Es6
-analysis = `Finacial Analysis
---------------------------
-Total Months: ${months}
-Total: $ ${total}
-Average Change: ${average}
-Greatest Increase in Profit: ${greastest[0]} $${greastest[1]}
-Greatest Decrease in Profit: ${least[0]}: ${least[1]}
-`
-
-console.log(analysis)
->>>>>>> d076387b2b3544c7b30a7575a81e00209b4d5da9
